@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-gan-cloud-gateway-user" />
+        <module name="springboot-gan-cloud-user-web" />
+        <module name="springboot-gan-cloud-common" />
+        <module name="springboot-gan-cloud-user-api" />
+        <module name="springboot-gan-cloud-gateway-admin" />
+        <module name="mybatis-plus-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-gan-cloud-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
